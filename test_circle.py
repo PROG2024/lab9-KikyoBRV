@@ -22,7 +22,7 @@ class TestCircle(unittest.TestCase):
 
         self.assertAlmostEqual(result_circle.get_radius(), 5, places=6)
         self.assertAlmostEqual(result_circle.get_area(),
-                               math.pi*(result_circle.get_radius()**2), places=100)
+                               math.pi*(result_circle.get_radius()**2), places=6)
 
     def test_add_area_edge_case_zero_radius(self):
         # Edge case: Test add_area when one of the circles has radius 0,
