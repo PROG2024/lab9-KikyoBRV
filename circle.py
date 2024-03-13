@@ -9,7 +9,7 @@ class Circle:
         
         :param radius: radius of the circle, may be zero.
         :raises ValueError: if radius is negative.
-                >>> circle = Circle(3)
+        >>> circle = Circle(3)
         >>> circle.get_radius()
         3
 
